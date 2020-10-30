@@ -53,15 +53,35 @@ body header div.container nav ul a:hover{
 }
 /********************* HEADER END********************/
 
-
-/**********************BODY MAIN*********************/
+/*******************BODY MAIN START*******************/
 body main{
     display: grid;
     grid-row: 2;
 
 }
+/*********************BODY MAIN END********************/
 
-/**********************BODY MAIN*********************/
+/*******************OVERVIEW-HERO START****************/
+main section.overview-hero{
+    background-color: #E2E8F0;
+}
+main section.overview-hero img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 25px 55px 25px 35px;
+}
+
+main section.overview-hero div.overview-hero-text{
+    width:770px;
+    padding-top: 25px;
+    padding-right: 55px;
+}
+
+
+
+
+
 main section.newsletter {
     background-color: #48BB78;
     color:white;
